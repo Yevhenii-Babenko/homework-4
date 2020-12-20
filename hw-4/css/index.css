@@ -1,0 +1,223 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    width: 1440px;
+    height: 782px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../crs/Bg.jpg");
+}
+
+.content{
+    max-width: 1440px;
+    max-height: 782px;
+}
+
+header{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    max-width: 1440px;
+    max-height: 100px;
+}
+
+.cloud_logo{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 165px;
+    top: 55px;
+    fill: none;
+}
+
+.logo{
+    position: absolute;
+    width: 136px;
+    height: 22px;
+    left: 201px;
+    top: 59px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.flag{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1056px;
+    top: 54px;
+}
+
+.language{
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 1099px;
+    top: 59px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.vector{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1122px;
+    top: 56px;
+}
+
+.caret{
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    left: 6px;
+    top: 10px;
+    fill: #ffffff;
+}
+
+li, a{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.navbar_links{
+    list-style: none;
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 498px;
+    top: 58px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.navbar_links li{
+    display: inline-block;
+    padding-right: 16px;
+}
+
+.navbar_links li{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar_links li:hover{
+    color: #800000;
+}
+
+button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1172px;
+    top: 50px;
+}
+.sign_up{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 640px;
+    top: 545px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sign_button{
+    color: #ED4C5C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.click{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background: linear-gradient(#800000, #FF0000);
+}
+
+.title{
+    position: absolute;
+    width: 578px;
+    height: 86px;
+    left: 431px;
+    top: 257px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.text{
+    position: absolute;
+    width: 540px;
+    height: 124px;
+    left: 450px;
+    top: 382px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 36px */
+    text-align: center;
+}
+
+
