@@ -133,10 +133,7 @@ li, a{
 }
 .navbar_links li{
     display: inline-block;
-    padding-right: 16px;
-}
-
-.navbar_links li{
+    padding-right:16px;
     transition: all 0.3s ease 0s;
 }
 
@@ -201,9 +198,6 @@ button{
     transition: all 0.3s ease 0s;
 }
 
-/*button:hover{*/
-/*    background: linear-gradient(#800000, #FF0000);*/
-/*}*/
 a button[class=click]:hover{
     background: #ffffff;
     color: #ED4C5C;
